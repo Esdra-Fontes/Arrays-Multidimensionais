@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Developing in JavaScript...</title>
+    </head>
+    <body>
+        <script>
+            //Array Simples string
+            const nomes = [
+                'Esdra', 
+                ' Sara', 
+                ' Cícero', 
+                ' Alessandra' 
+            ]
+            alert(nomes)
+
+            //Array Simples numérico
+            const idades = [
+                21,
+                23,
+                52,
+                49
+            ]
+            alert(idades.join(", "));
+
+            //Array Multidimensional (Array-d`Array)
+            const notas = [
+                [8, 7, 9, 10],
+                [6, 9, 7, 10],
+                [5, 6, 3, 10],
+                [2, 9, 1, 10]
+            ]
+            alert(notas.map(linha => linha.join(" | ")).join("\n"));
+
+            //Array Simples de Objetos
+            const pessoas = [
+                {nome: 'Esdra', telefone:'(61) 91111-1111', endereco:'Rua ABC'},
+                {nome: 'Sara', telefone:'(61) 92222-2222', endereco:'Rua DEF'},
+                {nome: 'Cícero', telefone:'(61) 93333-3333', endereco:'Rua GHI'},
+                {nome: 'Alessandra', telefone:'(61) 94444-4444', endereco:'Rua JKL'}
+            ]
+            alert(pessoas.map(p => `Nome: ${p.nome}\nTelefone: ${p.telefone}\nEndereço: ${p.endereco}`).join("\n\n"));
+        </script>
+    </body>
+</html>
