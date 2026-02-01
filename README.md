@@ -28,5 +28,6 @@ Arrays-Multidimensionais/ │ ├── index.html ├── css/ │ └── 
 - Organizar dados em estruturas de tabelas (arrays aninhados)
 - Manipular elementos de um array de mais de uma dimensão
 - Aplicar lógica básica de iteração e acesso a índices
+- Boas práticas na organização de projetos web
 
 👤 Autor: Esdra Fontes
